@@ -11,7 +11,7 @@ int daoso(int n) {
 }
 int main() {
 	int n,d;
-	cout << "nhap so nguyen duong n ";
+	cout << "nhap so nguyen duong n= ";
 	cin >> n;
 	if (n == daoso(n)) {
 		cout << "la so palindrom"<<"\n";
