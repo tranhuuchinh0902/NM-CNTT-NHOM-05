@@ -11,7 +11,7 @@ void boso(long long a,int t=0)
 	}
 	while (t != 0)
 	{
-		a = a * 10 + t % 10;
+		a =( a * 10) +( t % 10);
 		t /= 10;
 	}
 	cout << a << endl;
