@@ -7,7 +7,7 @@ int main()
 	do
 	{
 		cout << "Nhap 2 so nguyen m va n (m<n): " << endl;
-		cin >> m >> n;
+		cin >> m >> n; // Nhập 2 số m, n.
 	} while (m >= n);
 	for (int i = m;i <= n && i >= m;i++)
 	{
